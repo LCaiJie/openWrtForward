@@ -1,0 +1,5 @@
+#cmake最低版本需求，不加入此行会受到警告信息
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+ADD_SUBDIRECTORY( linkList )
+ADD_SUBDIRECTORY( ownQueue )

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "cstdlib": "c",
+        "in.h": "c",
+        "string.h": "c",
+        "math.h": "c",
+        "pthread.h": "c",
+        "own_queue.h": "c",
+        "link.h": "c",
+        "linklist.h": "c",
+        "*.tcc": "c",
+        "memory": "c"
+    }
+}
