@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/drive/linkList/linkList.h
+stdint.h
+-
+stddef.h
+-
+string.h
+-
+pthread.h
+-
+
+/home/caijie/project/OpenWrt/src/localIp/localIp.c
+localIp.h
+/home/caijie/project/OpenWrt/src/localIp/localIp.h
+linkList.h
+/home/caijie/project/OpenWrt/src/localIp/linkList.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+ifaddrs.h
+-
+arpa/inet.h
+-
+pthread.h
+-
+
+/home/caijie/project/OpenWrt/src/localIp/localIp.h
+netinet/in.h
+-
+

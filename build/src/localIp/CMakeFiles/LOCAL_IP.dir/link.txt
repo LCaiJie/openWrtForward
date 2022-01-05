@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLOCAL_IP.a  CMakeFiles/LOCAL_IP.dir/localIp.c.o
+/usr/bin/ranlib libLOCAL_IP.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOWM_QUEUE.a  CMakeFiles/OWM_QUEUE.dir/own_queue.c.o
+/usr/bin/ranlib libOWM_QUEUE.a

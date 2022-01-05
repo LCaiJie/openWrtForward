@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/caijie/project/OpenWrt/src/drive/linkList/linkList.c
+linkList.h
+/home/caijie/project/OpenWrt/src/drive/linkList/linkList.h
+stdio.h
+/home/caijie/project/OpenWrt/src/drive/linkList/stdio.h
+stdlib.h
+-
+
+/home/caijie/project/OpenWrt/src/drive/linkList/linkList.h
+stdint.h
+-
+stddef.h
+-
+string.h
+-
+pthread.h
+-
+

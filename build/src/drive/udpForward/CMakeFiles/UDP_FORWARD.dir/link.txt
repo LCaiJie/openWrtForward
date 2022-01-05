@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUDP_FORWARD.a  CMakeFiles/UDP_FORWARD.dir/udpForward.c.o
+/usr/bin/ranlib libUDP_FORWARD.a

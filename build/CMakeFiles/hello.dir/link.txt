@@ -1,0 +1,1 @@
+/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc   -rdynamic CMakeFiles/hello.dir/main.c.o  -o ../bin/hello  src/drive/ownQueue/libOWM_QUEUE.a src/drive/linkList/libLINK_LIST.a src/localIp/libLOCAL_IP.a src/drive/udpForward/libUDP_FORWARD.a 
