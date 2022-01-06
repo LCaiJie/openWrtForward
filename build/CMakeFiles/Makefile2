@@ -74,19 +74,16 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/drive/all
-src/all: src/localIp/all
 
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/drive/preinstall
-src/preinstall: src/localIp/preinstall
 
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/drive/clean
-src/clean: src/localIp/clean
 
 .PHONY : src/clean
 
@@ -96,21 +93,18 @@ src/clean: src/localIp/clean
 # Recursive "all" directory target.
 src/drive/all: src/drive/linkList/all
 src/drive/all: src/drive/ownQueue/all
-src/drive/all: src/drive/udpForward/all
 
 .PHONY : src/drive/all
 
 # Recursive "preinstall" directory target.
 src/drive/preinstall: src/drive/linkList/preinstall
 src/drive/preinstall: src/drive/ownQueue/preinstall
-src/drive/preinstall: src/drive/udpForward/preinstall
 
 .PHONY : src/drive/preinstall
 
 # Recursive "clean" directory target.
 src/drive/clean: src/drive/linkList/clean
 src/drive/clean: src/drive/ownQueue/clean
-src/drive/clean: src/drive/udpForward/clean
 
 .PHONY : src/drive/clean
 
@@ -151,57 +145,19 @@ src/drive/ownQueue/clean: src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/clean
 .PHONY : src/drive/ownQueue/clean
 
 #=============================================================================
-# Directory level rules for directory src/drive/udpForward
-
-# Recursive "all" directory target.
-src/drive/udpForward/all: src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/all
-
-.PHONY : src/drive/udpForward/all
-
-# Recursive "preinstall" directory target.
-src/drive/udpForward/preinstall:
-
-.PHONY : src/drive/udpForward/preinstall
-
-# Recursive "clean" directory target.
-src/drive/udpForward/clean: src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/clean
-
-.PHONY : src/drive/udpForward/clean
-
-#=============================================================================
-# Directory level rules for directory src/localIp
-
-# Recursive "all" directory target.
-src/localIp/all: src/localIp/CMakeFiles/LOCAL_IP.dir/all
-
-.PHONY : src/localIp/all
-
-# Recursive "preinstall" directory target.
-src/localIp/preinstall:
-
-.PHONY : src/localIp/preinstall
-
-# Recursive "clean" directory target.
-src/localIp/clean: src/localIp/CMakeFiles/LOCAL_IP.dir/clean
-
-.PHONY : src/localIp/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/hello.dir
 
 # All Build rule for target.
 CMakeFiles/hello.dir/all: src/drive/linkList/CMakeFiles/LINK_LIST.dir/all
 CMakeFiles/hello.dir/all: src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/all
-CMakeFiles/hello.dir/all: src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/all
-CMakeFiles/hello.dir/all: src/localIp/CMakeFiles/LOCAL_IP.dir/all
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=9,10 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=5,6,7,8,9 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 0
 .PHONY : CMakeFiles/hello.dir/rule
@@ -250,7 +206,7 @@ src/drive/linkList/CMakeFiles/LINK_LIST.dir/clean:
 src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/all:
 	$(MAKE) -f src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build.make src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/depend
 	$(MAKE) -f src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build.make src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=5,6 "Built target OWM_QUEUE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=3,4 "Built target OWM_QUEUE"
 .PHONY : src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -269,60 +225,6 @@ OWM_QUEUE: src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/rule
 src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/clean:
 	$(MAKE) -f src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build.make src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/clean
 .PHONY : src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/clean
-
-#=============================================================================
-# Target rules for target src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir
-
-# All Build rule for target.
-src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/all:
-	$(MAKE) -f src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build.make src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/depend
-	$(MAKE) -f src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build.make src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=7,8 "Built target UDP_FORWARD"
-.PHONY : src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/all
-
-# Build rule for subdir invocation for target.
-src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 0
-.PHONY : src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/rule
-
-# Convenience name for target.
-UDP_FORWARD: src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/rule
-
-.PHONY : UDP_FORWARD
-
-# clean rule for target.
-src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/clean:
-	$(MAKE) -f src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build.make src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/clean
-.PHONY : src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/clean
-
-#=============================================================================
-# Target rules for target src/localIp/CMakeFiles/LOCAL_IP.dir
-
-# All Build rule for target.
-src/localIp/CMakeFiles/LOCAL_IP.dir/all:
-	$(MAKE) -f src/localIp/CMakeFiles/LOCAL_IP.dir/build.make src/localIp/CMakeFiles/LOCAL_IP.dir/depend
-	$(MAKE) -f src/localIp/CMakeFiles/LOCAL_IP.dir/build.make src/localIp/CMakeFiles/LOCAL_IP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=3,4 "Built target LOCAL_IP"
-.PHONY : src/localIp/CMakeFiles/LOCAL_IP.dir/all
-
-# Build rule for subdir invocation for target.
-src/localIp/CMakeFiles/LOCAL_IP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/localIp/CMakeFiles/LOCAL_IP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caijie/project/OpenWrt/build/CMakeFiles 0
-.PHONY : src/localIp/CMakeFiles/LOCAL_IP.dir/rule
-
-# Convenience name for target.
-LOCAL_IP: src/localIp/CMakeFiles/LOCAL_IP.dir/rule
-
-.PHONY : LOCAL_IP
-
-# clean rule for target.
-src/localIp/CMakeFiles/LOCAL_IP.dir/clean:
-	$(MAKE) -f src/localIp/CMakeFiles/LOCAL_IP.dir/build.make src/localIp/CMakeFiles/LOCAL_IP.dir/clean
-.PHONY : src/localIp/CMakeFiles/LOCAL_IP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

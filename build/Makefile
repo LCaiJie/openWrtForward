@@ -149,31 +149,32 @@ OWM_QUEUE/fast:
 	$(MAKE) -f src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build.make src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/build
 .PHONY : OWM_QUEUE/fast
 
-#=============================================================================
-# Target rules for targets named UDP_FORWARD
+localIp.o: localIp.c.o
 
-# Build rule for target.
-UDP_FORWARD: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UDP_FORWARD
-.PHONY : UDP_FORWARD
+.PHONY : localIp.o
 
-# fast build rule for target.
-UDP_FORWARD/fast:
-	$(MAKE) -f src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build.make src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/build
-.PHONY : UDP_FORWARD/fast
+# target to build an object file
+localIp.c.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/localIp.c.o
+.PHONY : localIp.c.o
 
-#=============================================================================
-# Target rules for targets named LOCAL_IP
+localIp.i: localIp.c.i
 
-# Build rule for target.
-LOCAL_IP: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LOCAL_IP
-.PHONY : LOCAL_IP
+.PHONY : localIp.i
 
-# fast build rule for target.
-LOCAL_IP/fast:
-	$(MAKE) -f src/localIp/CMakeFiles/LOCAL_IP.dir/build.make src/localIp/CMakeFiles/LOCAL_IP.dir/build
-.PHONY : LOCAL_IP/fast
+# target to preprocess a source file
+localIp.c.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/localIp.c.i
+.PHONY : localIp.c.i
+
+localIp.s: localIp.c.s
+
+.PHONY : localIp.s
+
+# target to generate assembly for a file
+localIp.c.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/localIp.c.s
+.PHONY : localIp.c.s
 
 main.o: main.c.o
 
@@ -202,6 +203,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/main.c.s
 .PHONY : main.c.s
 
+tcpServer.o: tcpServer.c.o
+
+.PHONY : tcpServer.o
+
+# target to build an object file
+tcpServer.c.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/tcpServer.c.o
+.PHONY : tcpServer.c.o
+
+tcpServer.i: tcpServer.c.i
+
+.PHONY : tcpServer.i
+
+# target to preprocess a source file
+tcpServer.c.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/tcpServer.c.i
+.PHONY : tcpServer.c.i
+
+tcpServer.s: tcpServer.c.s
+
+.PHONY : tcpServer.s
+
+# target to generate assembly for a file
+tcpServer.c.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/tcpServer.c.s
+.PHONY : tcpServer.c.s
+
+udpServer.o: udpServer.c.o
+
+.PHONY : udpServer.o
+
+# target to build an object file
+udpServer.c.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/udpServer.c.o
+.PHONY : udpServer.c.o
+
+udpServer.i: udpServer.c.i
+
+.PHONY : udpServer.i
+
+# target to preprocess a source file
+udpServer.c.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/udpServer.c.i
+.PHONY : udpServer.c.i
+
+udpServer.s: udpServer.c.s
+
+.PHONY : udpServer.s
+
+# target to generate assembly for a file
+udpServer.c.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/udpServer.c.s
+.PHONY : udpServer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,11 +268,18 @@ help:
 	@echo "... hello"
 	@echo "... LINK_LIST"
 	@echo "... OWM_QUEUE"
-	@echo "... UDP_FORWARD"
-	@echo "... LOCAL_IP"
+	@echo "... localIp.o"
+	@echo "... localIp.i"
+	@echo "... localIp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tcpServer.o"
+	@echo "... tcpServer.i"
+	@echo "... tcpServer.s"
+	@echo "... udpServer.o"
+	@echo "... udpServer.i"
+	@echo "... udpServer.s"
 .PHONY : help
 
 

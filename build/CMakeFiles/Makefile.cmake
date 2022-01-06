@@ -15,8 +15,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/drive/CMakeLists.txt"
   "../src/drive/linkList/CMakeLists.txt"
   "../src/drive/ownQueue/CMakeLists.txt"
-  "../src/drive/udpForward/CMakeLists.txt"
-  "../src/localIp/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -51,8 +49,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/drive/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/drive/linkList/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/drive/ownQueue/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/drive/udpForward/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/localIp/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,6 +56,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello.dir/DependInfo.cmake"
   "src/drive/linkList/CMakeFiles/LINK_LIST.dir/DependInfo.cmake"
   "src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir/DependInfo.cmake"
-  "src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir/DependInfo.cmake"
-  "src/localIp/CMakeFiles/LOCAL_IP.dir/DependInfo.cmake"
   )

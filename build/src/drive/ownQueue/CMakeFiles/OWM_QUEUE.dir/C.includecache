@@ -6,17 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/caijie/project/OpenWrt/src/drive/ownQueue/own_queue.c
-own_queue.h
-/home/caijie/project/OpenWrt/src/drive/ownQueue/own_queue.h
-
-/home/caijie/project/OpenWrt/src/drive/ownQueue/own_queue.h
-stdint.h
--
-stddef.h
--
-string.h
--
-pthread.h
--
-

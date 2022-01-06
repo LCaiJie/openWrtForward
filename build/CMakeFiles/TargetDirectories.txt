@@ -11,9 +11,3 @@
 /home/caijie/project/OpenWrt/build/src/drive/ownQueue/CMakeFiles/rebuild_cache.dir
 /home/caijie/project/OpenWrt/build/src/drive/ownQueue/CMakeFiles/edit_cache.dir
 /home/caijie/project/OpenWrt/build/src/drive/ownQueue/CMakeFiles/OWM_QUEUE.dir
-/home/caijie/project/OpenWrt/build/src/drive/udpForward/CMakeFiles/rebuild_cache.dir
-/home/caijie/project/OpenWrt/build/src/drive/udpForward/CMakeFiles/edit_cache.dir
-/home/caijie/project/OpenWrt/build/src/drive/udpForward/CMakeFiles/UDP_FORWARD.dir
-/home/caijie/project/OpenWrt/build/src/localIp/CMakeFiles/rebuild_cache.dir
-/home/caijie/project/OpenWrt/build/src/localIp/CMakeFiles/edit_cache.dir
-/home/caijie/project/OpenWrt/build/src/localIp/CMakeFiles/LOCAL_IP.dir

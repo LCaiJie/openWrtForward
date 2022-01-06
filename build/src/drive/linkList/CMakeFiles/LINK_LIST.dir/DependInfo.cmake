@@ -12,8 +12,6 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../src/drive/ownQueue"
   "../src/drive/linkList"
-  "../src/drive/udpForward"
-  "../src/localIp"
   )
 
 # Targets to which this target links.

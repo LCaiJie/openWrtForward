@@ -57,9 +57,22 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
+CMakeFiles/hello.dir/localIp.c.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/localIp.c.o: ../localIp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hello.dir/localIp.c.o"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/localIp.c.o   -c /home/caijie/project/OpenWrt/localIp.c
+
+CMakeFiles/hello.dir/localIp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello.dir/localIp.c.i"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/caijie/project/OpenWrt/localIp.c > CMakeFiles/hello.dir/localIp.c.i
+
+CMakeFiles/hello.dir/localIp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/localIp.c.s"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/caijie/project/OpenWrt/localIp.c -o CMakeFiles/hello.dir/localIp.c.s
+
 CMakeFiles/hello.dir/main.c.o: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hello.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hello.dir/main.c.o"
 	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/main.c.o   -c /home/caijie/project/OpenWrt/main.c
 
 CMakeFiles/hello.dir/main.c.i: cmake_force
@@ -70,21 +83,51 @@ CMakeFiles/hello.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/main.c.s"
 	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/caijie/project/OpenWrt/main.c -o CMakeFiles/hello.dir/main.c.s
 
+CMakeFiles/hello.dir/tcpServer.c.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/tcpServer.c.o: ../tcpServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hello.dir/tcpServer.c.o"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/tcpServer.c.o   -c /home/caijie/project/OpenWrt/tcpServer.c
+
+CMakeFiles/hello.dir/tcpServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello.dir/tcpServer.c.i"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/caijie/project/OpenWrt/tcpServer.c > CMakeFiles/hello.dir/tcpServer.c.i
+
+CMakeFiles/hello.dir/tcpServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/tcpServer.c.s"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/caijie/project/OpenWrt/tcpServer.c -o CMakeFiles/hello.dir/tcpServer.c.s
+
+CMakeFiles/hello.dir/udpServer.c.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/udpServer.c.o: ../udpServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hello.dir/udpServer.c.o"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/udpServer.c.o   -c /home/caijie/project/OpenWrt/udpServer.c
+
+CMakeFiles/hello.dir/udpServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello.dir/udpServer.c.i"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/caijie/project/OpenWrt/udpServer.c > CMakeFiles/hello.dir/udpServer.c.i
+
+CMakeFiles/hello.dir/udpServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/udpServer.c.s"
+	/home/caijie/arm/lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64/toolchain-mips_24kc_gcc-5.4.0_musl/bin/mips-openwrt-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/caijie/project/OpenWrt/udpServer.c -o CMakeFiles/hello.dir/udpServer.c.s
+
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/main.c.o"
+"CMakeFiles/hello.dir/localIp.c.o" \
+"CMakeFiles/hello.dir/main.c.o" \
+"CMakeFiles/hello.dir/tcpServer.c.o" \
+"CMakeFiles/hello.dir/udpServer.c.o"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
+../bin/hello: CMakeFiles/hello.dir/localIp.c.o
 ../bin/hello: CMakeFiles/hello.dir/main.c.o
+../bin/hello: CMakeFiles/hello.dir/tcpServer.c.o
+../bin/hello: CMakeFiles/hello.dir/udpServer.c.o
 ../bin/hello: CMakeFiles/hello.dir/build.make
 ../bin/hello: src/drive/ownQueue/libOWM_QUEUE.a
 ../bin/hello: src/drive/linkList/libLINK_LIST.a
-../bin/hello: src/localIp/libLOCAL_IP.a
-../bin/hello: src/drive/udpForward/libUDP_FORWARD.a
 ../bin/hello: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caijie/project/OpenWrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ../bin/hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

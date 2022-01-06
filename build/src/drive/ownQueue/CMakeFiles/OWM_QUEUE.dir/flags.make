@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/caijie/project/OpenWrt/src/drive/ownQueue -I/home/caijie/project/OpenWrt/src/drive/linkList -I/home/caijie/project/OpenWrt/src/drive/udpForward -I/home/caijie/project/OpenWrt/src/localIp 
+C_INCLUDES = -I/home/caijie/project/OpenWrt/src/drive/ownQueue -I/home/caijie/project/OpenWrt/src/drive/linkList 
 
