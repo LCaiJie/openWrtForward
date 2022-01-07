@@ -13,7 +13,6 @@ CMakeFiles/hello.dir/main.c.o: ../tcpServer.h
 CMakeFiles/hello.dir/main.c.o: ../udpServer.h
 
 CMakeFiles/hello.dir/tcpServer.c.o: ../src/drive/linkList/linkList.h
-CMakeFiles/hello.dir/tcpServer.c.o: ../src/drive/ownQueue/own_queue.h
 CMakeFiles/hello.dir/tcpServer.c.o: ../tcpServer.c
 CMakeFiles/hello.dir/tcpServer.c.o: ../tcpServer.h
 CMakeFiles/hello.dir/tcpServer.c.o: ../udpServer.h

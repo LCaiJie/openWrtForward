@@ -16,16 +16,6 @@ string.h
 pthread.h
 -
 
-../src/drive/ownQueue/own_queue.h
-stdint.h
--
-stddef.h
--
-string.h
--
-pthread.h
--
-
 /home/caijie/project/OpenWrt/tcpServer.c
 tcpServer.h
 /home/caijie/project/OpenWrt/tcpServer.h
@@ -45,10 +35,10 @@ arpa/inet.h
 -
 semaphore.h
 -
+sys/socket.h
+-
 linkList.h
 /home/caijie/project/OpenWrt/linkList.h
-own_queue.h
-/home/caijie/project/OpenWrt/own_queue.h
 udpServer.h
 /home/caijie/project/OpenWrt/udpServer.h
 

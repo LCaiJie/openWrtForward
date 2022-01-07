@@ -14,7 +14,6 @@ CMakeFiles/hello.dir/main.c.o
  /home/caijie/project/OpenWrt/udpServer.h
 CMakeFiles/hello.dir/tcpServer.c.o
  ../src/drive/linkList/linkList.h
- ../src/drive/ownQueue/own_queue.h
  /home/caijie/project/OpenWrt/tcpServer.c
  /home/caijie/project/OpenWrt/tcpServer.h
  /home/caijie/project/OpenWrt/udpServer.h
