@@ -1,7 +1,7 @@
 /*
- * own_queue.h
+ * linkList.h
  *
- *  Created on: Jul 17, 2020
+ *  Created on: 1 5, 2022
  *      Author: caijie
  */
 
@@ -155,6 +155,12 @@ void linkListDestroy(linkList_t *handle);
  */
 void linkListClran(linkList_t *handle);
 
+/**
+ * @brief  获取链表数量
+ * @param  handle 链表句柄
+ * @return 
+ */
+int linkListGetNum(linkList_t *handle);
 
 
 

@@ -203,7 +203,7 @@ void *linkListFind(void *key, linkListCmp_t *cmp, linkList_t *handle)
     linkNode_t *tail = NULL;
 
     for (tail = handle->head.next; tail != &handle->head; tail = tail->next) {
-        if (!cmp(key, tail->data)) {
+        if (cmp(key, tail->data) == 0) {
             return tail->data;
         }
     }
@@ -355,7 +355,14 @@ void linkListClran(linkList_t *handle)
     handle->num = 0;
 }
 
-
-
+/**
+ * @brief  获取链表数量
+ * @param  handle 链表句柄
+ * @return 
+ */
+int linkListGetNum(linkList_t *handle)
+{
+    return handle->num;
+}
 
 

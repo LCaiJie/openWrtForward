@@ -27,7 +27,6 @@ typedef struct {
     pthread_mutex_t olock;   /*!< 锁  */
 }own_queue_t;
 
-
 /**
  * @name: 创建队列
  * @param {queue 队列，data 存储指针，data_len 数据长度，number 数据数量}

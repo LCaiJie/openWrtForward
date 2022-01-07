@@ -20,9 +20,9 @@ PROJECT( HELLO )
 AUX_SOURCE_DIRECTORY(. SRC_LIST)
 
 #包含头文件的目录
-INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}/src/ownQueue"
-                    "${PROJECT_SOURCE_DIR}/src/linkList")
-
+INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}/src/drive/ownQueue"
+                    "${PROJECT_SOURCE_DIR}/src/drive/linkList"
+                    )
 
 #包含的目录
 ADD_SUBDIRECTORY( src)
@@ -33,9 +33,9 @@ SET(EXTRA_LIBS OWM_QUEUE LINK_LIST)
 #可执行文件的输出的路径
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-#生成应用程序 hello
-ADD_EXECUTABLE(hello ${SRC_LIST})
+#生成应用程序 secondary_routing
+ADD_EXECUTABLE(secondary_routing ${SRC_LIST} localIp.c tcpServer.c udpServer.c)
 
 #添加链接的共享库
-TARGET_LINK_LIBRARIES( hello ${EXTRA_LIBS})
+TARGET_LINK_LIBRARIES( secondary_routing ${EXTRA_LIBS})
 

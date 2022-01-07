@@ -1,6 +1,6 @@
 /home/caijie/project/OpenWrt/build/CMakeFiles/rebuild_cache.dir
 /home/caijie/project/OpenWrt/build/CMakeFiles/edit_cache.dir
-/home/caijie/project/OpenWrt/build/CMakeFiles/hello.dir
+/home/caijie/project/OpenWrt/build/CMakeFiles/secondary_routing.dir
 /home/caijie/project/OpenWrt/build/src/CMakeFiles/rebuild_cache.dir
 /home/caijie/project/OpenWrt/build/src/CMakeFiles/edit_cache.dir
 /home/caijie/project/OpenWrt/build/src/drive/CMakeFiles/rebuild_cache.dir

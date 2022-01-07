@@ -10,6 +10,16 @@
         "link.h": "c",
         "linklist.h": "c",
         "*.tcc": "c",
-        "memory": "c"
+        "memory": "c",
+        "udpforward.h": "c",
+        "types.h": "c",
+        "ifaddrs.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "localip.h": "c",
+        "tcpserver.h": "c",
+        "udpserver.h": "c",
+        "socket.h": "c",
+        "ioctl.h": "c"
     }
 }
